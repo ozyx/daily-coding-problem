@@ -18,7 +18,7 @@ int main() {
     ll n,k;
     cin >> n >> k;
     ll arr[n];
-    set <ll> unique;
+    unordered_set <ll> unique;
     for (int i = 0; i < n; ++i)
     {
         cin >> arr[i];
